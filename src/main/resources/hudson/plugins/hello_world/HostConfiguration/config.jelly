@@ -1,0 +1,16 @@
+<j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form" xmlns:poj="/pojelly">
+    
+    <f:entry title="Name" field="name">
+        <f:textbox/>
+    </f:entry>
+    <f:entry title="Hostname" field="hostname">
+        <f:textbox/>
+    </f:entry>
+    <f:entry title="Username" field="username">
+        <f:textbox/>
+    </f:entry>
+    <f:entry title="Remote Path" field="remoteRootDir">
+        <f:textbox/>
+    </f:entry>                      
+            
+</j:jelly>
