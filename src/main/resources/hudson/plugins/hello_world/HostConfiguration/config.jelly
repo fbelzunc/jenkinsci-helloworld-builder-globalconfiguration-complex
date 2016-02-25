@@ -1,6 +1,5 @@
 <?jelly escape-by-default='true'?>
 <j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form" xmlns:poj="/pojelly">
-    
     <f:entry title="Name" field="name">
         <f:textbox/>
     </f:entry>
@@ -12,6 +11,5 @@
     </f:entry>
     <f:entry title="Remote Path" field="remoteRootDir">
         <f:textbox/>
-    </f:entry>                      
-            
+    </f:entry>
 </j:jelly>

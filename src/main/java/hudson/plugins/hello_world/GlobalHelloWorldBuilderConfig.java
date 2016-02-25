@@ -36,7 +36,6 @@ public class GlobalHelloWorldBuilderConfig extends GlobalConfiguration {
 
     public void setHostConfiguration(List <HostConfiguration> hostConfiguration) {
         this.hostConfiguration = hostConfiguration;
-        save();
     }
 
     public static GlobalHelloWorldBuilderConfig get() {
