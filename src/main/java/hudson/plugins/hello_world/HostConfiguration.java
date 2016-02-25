@@ -1,11 +1,8 @@
 package hudson.plugins.hello_world;
 
 import hudson.Extension;
-import hudson.ExtensionPoint;
 import hudson.model.AbstractDescribableImpl;
-import hudson.model.Describable;
 import hudson.model.Descriptor;
-import hudson.model.Hudson;
 import org.kohsuke.stapler.DataBoundConstructor;
 
 /**
